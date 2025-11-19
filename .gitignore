@@ -1,2 +1,41 @@
-
+# -------------------------
+# Node / Vite build files
+# -------------------------
+node_modules/
 dist/
+
+# Vite local cache
+.vite/
+
+# Temporary logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------------
+# Editor / system files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Jest / Testing
+# -------------------------
+coverage/
+.jest/
+
+# -------------------------
+# Build artifacts (never commit)
+# -------------------------
+*.log
+*.tsbuildinfo
+
